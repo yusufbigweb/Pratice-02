@@ -37,7 +37,8 @@ console.log(user)
 
 
 
-=================
+
+****
 
 #### Variable
 - var ✅
@@ -81,9 +82,34 @@ console.log(user)
 - Promises
 - Promise APIs
 
-#### Async & Await
+#### Async & Await - IMP
 
-#### try & catch
+#### try & catch - IMP
 
 
 
+***
+
+
+### Study - Progress
+
+#### - Yestday What I Learn:
+
+- How JavaScript Work & Excuting Context ✅
+- How JavaScript Code Excuting & Call Stall ✅ 
+- Hoisting in JavaScript & Variable & Function ✅ 
+- How function work in JavaScript & Variable Environment ✅
+- Shortest JavaScript Program WINDOW & This keyword ✅
+- Undefined and Not-defined in JavaScript 
+- The Scope Chain and Lexical Scopre in JavaScript
+- (Let & Const) in JavaScript & Temporal Dead Zone
+
+### 
+
+
+***
+
+##### New Knowlege:
+
+`strict equality operator (===) this is assiment Opreator
+`
