@@ -63,26 +63,26 @@
 // }
 
 
-var a = 1;
-b();
-c();
+// var a = 1;
+// b();
+// c();
 
 
 
-function b(){
-    var b = 10;
-    console.log(b)
-}
+// function b(){
+//     var b = 10;
+//     console.log(b)
+// }
 
 
-function c(){
-    var c = 100;
-    console.log(c)
-}
+// function c(){
+//     var c = 100;
+//     console.log(c)
+// }
 
-// output =  100 100 1
+// // output =  100 100 1
 
-console.log(a)
+// console.log(a)
 
 
 

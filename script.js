@@ -9,24 +9,24 @@
 // }
 
 
-const day = 3;
+// const day = 3;
 
-switch(day){
-    case 1: {
-        console.log("yusuf - 1")
-    }
-    break;
-    case 2: {
-        console.log("yusuf - 2")
-    }
-    break;
-    case 3: {
-        console.log("yusuf - 3")
-    }
-    break;
-    default: {
-        console.log("sorry")
-    }
-}
+// switch(day){
+//     case 1: {
+//         console.log("yusuf - 1")
+//     }
+//     break;
+//     case 2: {
+//         console.log("yusuf - 2")
+//     }
+//     break;
+//     case 3: {
+//         console.log("yusuf - 3")
+//     }
+//     break;
+//     default: {
+//         console.log("sorry")
+//     }
+// }
 
-console.log(day)
+// console.log(day)
