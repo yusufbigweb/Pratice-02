@@ -102,7 +102,24 @@ console.log(user)
 - Shortest JavaScript Program WINDOW & This keyword ✅
 - Undefined and Not-defined in JavaScript 
 - The Scope Chain and Lexical Scopre in JavaScript
-- (Let & Const) in JavaScript & Temporal Dead Zone
+- (Let & Const) in JavaScript & Temporal Dead Zone        
+
+        ---- Update -02-28-2025  -----
+
+- BLOCK SCOPE & SHADOWING in JavaScript 
+- Closures in JS
+    - Uses of Closures
+        - Module Design Patten
+        - Currying
+        - Functions like once
+        - memoize
+        - maintaining state in async world
+        - setTimeouts
+        - Iterators
+        - and many more... 
+
+- setTimeOut() + Closures in JavaScript
+- CRAZY JS INTERVIEW 🤯ft. Closures
 
 ### 
 

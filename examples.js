@@ -7,9 +7,6 @@
 
 // console.log(useingMap)
 
-
-
-
 // var x = 1;
 
 // function a(){
@@ -22,13 +19,10 @@
 //     console.log(x)
 // }
 
-
 // a();
 // b();
 
 // console.log(x)
-
-
 
 // const a = 100;
 
@@ -38,7 +32,6 @@
 // }
 // // ad()
 // console.log(ad())
-
 
 // function a(){
 //     function c(){
@@ -51,8 +44,7 @@
 // var b = 10;
 // a();
 
-
-// b(); 
+// b();
 // console.log(a)
 
 // const  a = 10;
@@ -62,18 +54,14 @@
 //     console.log(b)
 // }
 
-
 // var a = 1;
 // b();
 // c();
-
-
 
 // function b(){
 //     var b = 10;
 //     console.log(b)
 // }
-
 
 // function c(){
 //     var c = 100;
@@ -83,8 +71,6 @@
 // // output =  100 100 1
 
 // console.log(a)
-
-
 
 /*
 
@@ -106,3 +92,94 @@
     reference error ... while trying to access variable which is not there in global memory.
 
 */
+
+// let c  = 2000;
+
+// {
+//     var a = 10;
+//     let b = 100;
+//     const c = 10000;
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+// }
+
+// console.log(c)
+
+//10
+//20
+//30
+//100
+
+// var a = 10;
+
+// {
+//     const a = 10;
+// }
+
+// console.log(a)
+
+// function z(){
+
+//     var p = 800;
+
+//     function x(){
+
+//         var a = 10;
+
+//         function y(){
+//             console.log(a, p)
+
+//         }
+
+//         a = 100
+//         return y;
+//     }
+
+// x();
+
+// }
+// z()
+
+// function z(){
+
+//     var a = 10;
+//     function x(){
+//         var b = 20;
+//         function y(){
+//             console.log(a, b)
+//         }
+//         y()
+//     }
+//     x()
+// }
+
+// z()
+
+// function x() {
+//   for (var a = 1; a <= 5; a++) {
+//     function y(a) {
+//       setTimeout(() => {
+//         console.log(a);
+//       }, a * 1000);
+//     }
+//     y(a);
+//   }
+// }
+
+// x();
+
+
+
+
+let scope  = "global Variable";
+
+function checkScope(){
+    let scope = "local variable";
+    function f(){
+        return scope;
+    }
+    return f();
+}
+
+checkScope()
